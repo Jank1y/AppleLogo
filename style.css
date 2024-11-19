@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   height: 100%;
   width: 100%;
 }
@@ -14,7 +14,7 @@ nav {
   color: white;
   align-items: center;
   font-family: SanFrancisco;
-  border-bottom: 1px solid grey ;
+  border-bottom: 1px solid grey;
   height: 90px;
 }
 
@@ -30,22 +30,17 @@ nav img {
   width: 100%;
   margin-left: 70%;
 }
-
-.hamburger-icon {
+.div7 {
   display: none;
-  cursor: pointer;
-  font-size: 24px;
 }
-
 .app-description {
   background: #000000;
   width: auto;
   height: 100vh;
 }
-.phones img{
+.phones img {
   height: 100px;
   width: 100px;
-  
 }
 
 @font-face {
@@ -53,12 +48,26 @@ nav img {
   src: url(Fonts/SFNSDisplay-Black.otf);
 }
 
-@media screen and (max-width: 1380px) {
+@media screen and (max-width: 1649px) {
   .menu {
+    margin-left: 61%;
+    transition: 0.01s ease-in-out;
+  }
+}
+@media screen and (max-width: 1335px) {
+  .menu .div1,
+  .div2,
+  .div3,
+  .div4,
+  .div5,
+  .div6 {
     display: none;
   }
-
-  .hamburger-icon {
+  .menu {
+    flex-wrap: wrap;
+  }
+  .div7 {
     display: block;
+    transform: translateX(-40px);
   }
 }
