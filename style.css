@@ -37,6 +37,21 @@ nav img {
   background: #000000;
   width: auto;
   height: 100vh;
+  color: white;
+  text-align: center;
+}
+.app-description h1 {
+  font-family: SanFranciscoHeadline;
+  color: white;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.app-description p {
+  font-family: SanFranciscoParagraph ;
+  color: white;
+  text-align: center;
+
 }
 .phones img {
   height: 100px;
@@ -46,6 +61,14 @@ nav img {
 @font-face {
   font-family: SanFrancisco;
   src: url(Fonts/SFNSDisplay-Black.otf);
+}
+@font-face {
+  font-family: SanFranciscoHeadline;
+  src: url(Fonts/SFNSDisplay-Bold.otf);
+}
+@font-face {
+  font-family: SanFranciscoParagraph;
+  src: url(Fonts/SFNSText-Light.otf);
 }
 
 @media screen and (max-width: 1649px) {
