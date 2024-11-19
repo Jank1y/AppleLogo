@@ -15,18 +15,20 @@ nav {
   align-items: center;
   font-family: SanFrancisco;
   border-bottom: 1px solid grey ;
+  height: 90px;
 }
 
 nav img {
-  height: 32px;
-  width: 32px;
-  /*margin: 0 15% 0 15%;*/
+  height: 40px;
+  width: 40px;
+  margin-left: 100%;
 }
 
 .menu {
   display: flex;
-  justify-content: space-evenly;
+  gap: 2%;
   width: 100%;
+  margin-left: 70%;
 }
 
 .hamburger-icon {
@@ -51,7 +53,7 @@ nav img {
   src: url(Fonts/SFNSDisplay-Black.otf);
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 1380px) {
   .menu {
     display: none;
   }
