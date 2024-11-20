@@ -6,6 +6,7 @@
 body {
   height: 100%;
   width: 100%;
+  background: #000000;
 }
 
 nav {
@@ -34,11 +35,10 @@ nav img {
   display: none;
 }
 .app-description {
-  background: #000000;
   width: auto;
-  height: 100vh;
   color: white;
   text-align: center;
+  justify-content: center;
 }
 .app-description h1 {
   font-family: SanFranciscoHeadline;
@@ -47,15 +47,28 @@ nav img {
   padding-top: 25px;
   padding-bottom: 25px;
 }
-.app-description p {
+.app-description .text {
   font-family: SanFranciscoParagraph ;
-  color: white;
   text-align: center;
+  width: 45%;
+  height: auto;
+  margin: 0 auto;
 
 }
-.phones img {
-  height: 100px;
-  width: 100px;
+.phones {
+  display: flex;
+  color: #000000;
+}
+.function {
+  border: 1px solid wheat;
+  margin:  2% auto 0 auto;
+}
+.function .svg_logo {
+  width: 100%;
+  height: 75px;
+  position: relative;
+  bottom: 52%;
+  left: 2px;
 }
 
 @font-face {
