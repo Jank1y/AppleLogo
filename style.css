@@ -79,11 +79,11 @@ footer {
   color: white;
   font-family: SanFrancisco;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 20px;
   border-top: 1px solid grey;
 }
+
 
 @font-face {
   font-family: SanFrancisco;
