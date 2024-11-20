@@ -71,7 +71,7 @@ nav img {
   src: url(Fonts/SFNSText-Light.otf);
 }
 
-@media screen and (max-width: 1649px) {
+@media screen and (max-width: 1658px) {
   .menu {
     margin-left: 61%;
     transition: 0.01s ease-in-out;
