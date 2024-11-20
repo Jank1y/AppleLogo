@@ -74,6 +74,8 @@ nav img {
 }
 footer {
   background: #141416;
+  margin-top: 2%;
+  height: 150px;
   color: white;
   font-family: SanFrancisco;
   display: flex;
