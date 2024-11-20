@@ -60,7 +60,6 @@ nav img {
   color: #000000;
 }
 .function {
-  border: 1px solid wheat;
   margin:  2% auto 0 auto;
 }
 .function .svg_logo {
@@ -69,6 +68,9 @@ nav img {
   position: relative;
   bottom: 52%;
   left: 2px;
+}
+.contols {
+  display: flex;
 }
 
 @font-face {
